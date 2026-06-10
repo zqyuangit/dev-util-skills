@@ -135,6 +135,33 @@ For each worker:
 
 Do not use the user as a prompt router. If a worker prompt must be copied manually because tools are unavailable, present it as a fallback blocker with the minimum user actions required, not as a completed startup.
 
+## Pre-Implementation Fact Check
+
+Before dispatching implementation workers, perform a short read-only fact check when the task depends on existing behavior, ambiguous naming, configuration flow, runtime state, external integrations, or a user-reported contradiction.
+
+Use the coordinator locally or assign a small explorer task first. The goal is to remove unverified assumptions before implementation begins.
+
+Run this gate when:
+
+- the user reports that the system behaves differently from what the UI or settings imply
+- a field name, file name, endpoint name, or label may be historical, compatibility-only, or misleading
+- the behavior crosses multiple layers such as UI, API, storage, runtime configuration, background jobs, or external services
+- multiple workers could make conflicting assumptions about the same behavior
+- a dynamic value could be mistaken for a fixed constant
+
+The fact check should identify:
+
+- the source of truth for the behavior or value
+- the actual data flow across relevant layers
+- names that are only labels, legacy terms, or implementation details
+- values that must remain dynamic or user-controlled
+- files, functions, or modules that own the behavior
+- assumptions that are still unverified and must not be given to implementation workers
+
+Do not dispatch implementation work from surface names alone. If the fact check finds ambiguity, either resolve it through more read-only inspection or pass the uncertainty explicitly into the worker prompt with a stop condition.
+
+Implementation worker dispatches should include only verified facts, clear ownership boundaries, allowed write areas, forbidden assumptions, validation commands, and acceptance criteria.
+
 ## Required Setup
 
 Before coordinating, identify:
