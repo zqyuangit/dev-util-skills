@@ -1,4 +1,4 @@
-# dev-Util-skills
+# dev-util-skills
 
 个人开发与项目协作常用 Codex skills 归档库。
 
