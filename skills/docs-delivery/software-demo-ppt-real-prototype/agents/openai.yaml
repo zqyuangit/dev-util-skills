@@ -1,0 +1,7 @@
+interface:
+  display_name: "真实原型软件PPT"
+  short_description: "使用真实程序界面生成正式可编辑软件展示PPT文稿材料"
+  default_prompt: "Use $software-demo-ppt-real-prototype to create a formal editable software demo PPT with real program screenshots."
+
+policy:
+  allow_implicit_invocation: true

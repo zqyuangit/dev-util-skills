@@ -1,0 +1,4 @@
+interface:
+  display_name: "Architecture Freeze Check"
+  short_description: "Catch redesign risks before implementation"
+  default_prompt: "Use $architecture-freeze-check to pressure-test this project before implementation and identify redesign risks."

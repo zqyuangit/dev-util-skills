@@ -1,0 +1,7 @@
+interface:
+  display_name: "软著说明书生成"
+  short_description: "根据PPT源码截图和需求材料生成正式软件著作权说明书文档"
+  default_prompt: "Use $software-copyright-report to generate a formal software copyright manual from my project materials."
+
+policy:
+  allow_implicit_invocation: true

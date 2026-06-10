@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend UI Polish Specialist"
+  short_description: "Polish existing frontend UI with focused visual QA."
+  default_prompt: "Use $frontend-ui-polish-specialist to polish the existing frontend UI without changing product scope or workflow."

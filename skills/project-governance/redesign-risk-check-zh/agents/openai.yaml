@@ -1,0 +1,4 @@
+interface:
+  display_name: "重构风险检查"
+  short_description: "开工前检查后期大改风险"
+  default_prompt: "Use $redesign-risk-check-zh to review this project in Chinese before implementation and identify redesign risks."

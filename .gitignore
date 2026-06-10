@@ -1,0 +1,15 @@
+# Local/runtime noise
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Tool caches
+node_modules/
+.venv/
+__pycache__/
+.pytest_cache/
+.next/
+dist/
+build/
+

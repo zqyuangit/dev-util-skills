@@ -1,0 +1,362 @@
+﻿[
+    {
+        "category":  "ai-tooling",
+        "name":  "chatgpt-apps",
+        "sizeKB":  74.9,
+        "path":  "skills/ai-tooling/chatgpt-apps"
+    },
+    {
+        "category":  "ai-tooling",
+        "name":  "cli-creator",
+        "sizeKB":  26.2,
+        "path":  "skills/ai-tooling/cli-creator"
+    },
+    {
+        "category":  "ai-tooling",
+        "name":  "context7",
+        "sizeKB":  13.6,
+        "path":  "skills/ai-tooling/context7"
+    },
+    {
+        "category":  "ai-tooling",
+        "name":  "markdown-url",
+        "sizeKB":  4.2,
+        "path":  "skills/ai-tooling/markdown-url"
+    },
+    {
+        "category":  "ai-tooling",
+        "name":  "migrate-to-codex",
+        "sizeKB":  132,
+        "path":  "skills/ai-tooling/migrate-to-codex"
+    },
+    {
+        "category":  "ai-tooling",
+        "name":  "openai-docs",
+        "sizeKB":  50.6,
+        "path":  "skills/ai-tooling/openai-docs"
+    },
+    {
+        "category":  "ai-tooling",
+        "name":  "pluginstaller",
+        "sizeKB":  5.5,
+        "path":  "skills/ai-tooling/pluginstaller"
+    },
+    {
+        "category":  "ai-tooling",
+        "name":  "role-creator",
+        "sizeKB":  19.6,
+        "path":  "skills/ai-tooling/role-creator"
+    },
+    {
+        "category":  "deployment-devops",
+        "name":  "cloudflare-deploy",
+        "sizeKB":  1317.7,
+        "path":  "skills/deployment-devops/cloudflare-deploy"
+    },
+    {
+        "category":  "deployment-devops",
+        "name":  "netlify-deploy",
+        "sizeKB":  32.9,
+        "path":  "skills/deployment-devops/netlify-deploy"
+    },
+    {
+        "category":  "deployment-devops",
+        "name":  "render-deploy",
+        "sizeKB":  98.2,
+        "path":  "skills/deployment-devops/render-deploy"
+    },
+    {
+        "category":  "deployment-devops",
+        "name":  "sentry",
+        "sizeKB":  17.1,
+        "path":  "skills/deployment-devops/sentry"
+    },
+    {
+        "category":  "deployment-devops",
+        "name":  "vercel-deploy",
+        "sizeKB":  13.6,
+        "path":  "skills/deployment-devops/vercel-deploy"
+    },
+    {
+        "category":  "docs-delivery",
+        "name":  "Humanizer-zh",
+        "sizeKB":  27.1,
+        "path":  "skills/docs-delivery/Humanizer-zh"
+    },
+    {
+        "category":  "docs-delivery",
+        "name":  "pdf",
+        "sizeKB":  14.5,
+        "path":  "skills/docs-delivery/pdf"
+    },
+    {
+        "category":  "docs-delivery",
+        "name":  "software-copyright-report",
+        "sizeKB":  11,
+        "path":  "skills/docs-delivery/software-copyright-report"
+    },
+    {
+        "category":  "docs-delivery",
+        "name":  "software-demo-ppt-real-prototype",
+        "sizeKB":  10.6,
+        "path":  "skills/docs-delivery/software-demo-ppt-real-prototype"
+    },
+    {
+        "category":  "framework-app-dev",
+        "name":  "aspnet-core",
+        "sizeKB":  51.9,
+        "path":  "skills/framework-app-dev/aspnet-core"
+    },
+    {
+        "category":  "framework-app-dev",
+        "name":  "jupyter-notebook",
+        "sizeKB":  30.1,
+        "path":  "skills/framework-app-dev/jupyter-notebook"
+    },
+    {
+        "category":  "framework-app-dev",
+        "name":  "winui-app",
+        "sizeKB":  84.7,
+        "path":  "skills/framework-app-dev/winui-app"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma",
+        "sizeKB":  12.4,
+        "path":  "skills/frontend-ui-quality/figma"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma-code-connect-components",
+        "sizeKB":  21.4,
+        "path":  "skills/frontend-ui-quality/figma-code-connect-components"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma-create-design-system-rules",
+        "sizeKB":  22.6,
+        "path":  "skills/frontend-ui-quality/figma-create-design-system-rules"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma-create-new-file",
+        "sizeKB":  6.9,
+        "path":  "skills/frontend-ui-quality/figma-create-new-file"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma-generate-design",
+        "sizeKB":  24,
+        "path":  "skills/frontend-ui-quality/figma-generate-design"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma-generate-library",
+        "sizeKB":  231.7,
+        "path":  "skills/frontend-ui-quality/figma-generate-library"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma-implement-design",
+        "sizeKB":  15.6,
+        "path":  "skills/frontend-ui-quality/figma-implement-design"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "figma-use",
+        "sizeKB":  627.6,
+        "path":  "skills/frontend-ui-quality/figma-use"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "frontend-critical-flow-acceptance",
+        "sizeKB":  5.4,
+        "path":  "skills/frontend-ui-quality/frontend-critical-flow-acceptance"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "frontend-ui-polish-specialist",
+        "sizeKB":  5.9,
+        "path":  "skills/frontend-ui-quality/frontend-ui-polish-specialist"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "playwright",
+        "sizeKB":  22.3,
+        "path":  "skills/frontend-ui-quality/playwright"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "playwright-interactive",
+        "sizeKB":  45.6,
+        "path":  "skills/frontend-ui-quality/playwright-interactive"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "screenshot",
+        "sizeKB":  50.8,
+        "path":  "skills/frontend-ui-quality/screenshot"
+    },
+    {
+        "category":  "frontend-ui-quality",
+        "name":  "ui-ux-pro-max",
+        "sizeKB":  43.8,
+        "path":  "skills/frontend-ui-quality/ui-ux-pro-max"
+    },
+    {
+        "category":  "github-collaboration",
+        "name":  "gh-address-comments",
+        "sizeKB":  21.6,
+        "path":  "skills/github-collaboration/gh-address-comments"
+    },
+    {
+        "category":  "github-collaboration",
+        "name":  "gh-fix-ci",
+        "sizeKB":  31.9,
+        "path":  "skills/github-collaboration/gh-fix-ci"
+    },
+    {
+        "category":  "github-collaboration",
+        "name":  "linear",
+        "sizeKB":  24.2,
+        "path":  "skills/github-collaboration/linear"
+    },
+    {
+        "category":  "github-collaboration",
+        "name":  "read-github",
+        "sizeKB":  12.4,
+        "path":  "skills/github-collaboration/read-github"
+    },
+    {
+        "category":  "github-collaboration",
+        "name":  "yeet",
+        "sizeKB":  19.8,
+        "path":  "skills/github-collaboration/yeet"
+    },
+    {
+        "category":  "media-specialized-tools",
+        "name":  "hatch-pet",
+        "sizeKB":  129.5,
+        "path":  "skills/media-specialized-tools/hatch-pet"
+    },
+    {
+        "category":  "media-specialized-tools",
+        "name":  "speech",
+        "sizeKB":  47.6,
+        "path":  "skills/media-specialized-tools/speech"
+    },
+    {
+        "category":  "media-specialized-tools",
+        "name":  "transcribe",
+        "sizeKB":  24.6,
+        "path":  "skills/media-specialized-tools/transcribe"
+    },
+    {
+        "category":  "productivity-integrations",
+        "name":  "notion-knowledge-capture",
+        "sizeKB":  71,
+        "path":  "skills/productivity-integrations/notion-knowledge-capture"
+    },
+    {
+        "category":  "productivity-integrations",
+        "name":  "notion-meeting-intelligence",
+        "sizeKB":  68.4,
+        "path":  "skills/productivity-integrations/notion-meeting-intelligence"
+    },
+    {
+        "category":  "productivity-integrations",
+        "name":  "notion-research-documentation",
+        "sizeKB":  75.4,
+        "path":  "skills/productivity-integrations/notion-research-documentation"
+    },
+    {
+        "category":  "productivity-integrations",
+        "name":  "notion-spec-to-implementation",
+        "sizeKB":  83.6,
+        "path":  "skills/productivity-integrations/notion-spec-to-implementation"
+    },
+    {
+        "category":  "project-governance",
+        "name":  "architecture-freeze-check",
+        "sizeKB":  6.1,
+        "path":  "skills/project-governance/architecture-freeze-check"
+    },
+    {
+        "category":  "project-governance",
+        "name":  "codebase-orientation",
+        "sizeKB":  1,
+        "path":  "skills/project-governance/codebase-orientation"
+    },
+    {
+        "category":  "project-governance",
+        "name":  "define-goal",
+        "sizeKB":  16.5,
+        "path":  "skills/project-governance/define-goal"
+    },
+    {
+        "category":  "project-governance",
+        "name":  "development-playbook-writer",
+        "sizeKB":  6.2,
+        "path":  "skills/project-governance/development-playbook-writer"
+    },
+    {
+        "category":  "project-governance",
+        "name":  "multi-session-project-coordinator",
+        "sizeKB":  21.4,
+        "path":  "skills/project-governance/multi-session-project-coordinator"
+    },
+    {
+        "category":  "project-governance",
+        "name":  "redesign-risk-check-zh",
+        "sizeKB":  5.1,
+        "path":  "skills/project-governance/redesign-risk-check-zh"
+    },
+    {
+        "category":  "project-governance",
+        "name":  "ticket-breakdown",
+        "sizeKB":  0.6,
+        "path":  "skills/project-governance/ticket-breakdown"
+    },
+    {
+        "category":  "requirements-api-design",
+        "name":  "api-contract-designer",
+        "sizeKB":  4.2,
+        "path":  "skills/requirements-api-design/api-contract-designer"
+    },
+    {
+        "category":  "requirements-api-design",
+        "name":  "api-request-builder",
+        "sizeKB":  0.7,
+        "path":  "skills/requirements-api-design/api-request-builder"
+    },
+    {
+        "category":  "requirements-api-design",
+        "name":  "design-from-materials",
+        "sizeKB":  5.5,
+        "path":  "skills/requirements-api-design/design-from-materials"
+    },
+    {
+        "category":  "requirements-api-design",
+        "name":  "domain-solution-designer",
+        "sizeKB":  4,
+        "path":  "skills/requirements-api-design/domain-solution-designer"
+    },
+    {
+        "category":  "security",
+        "name":  "security-best-practices",
+        "sizeKB":  402.1,
+        "path":  "skills/security/security-best-practices"
+    },
+    {
+        "category":  "security",
+        "name":  "security-ownership-map",
+        "sizeKB":  96.2,
+        "path":  "skills/security/security-ownership-map"
+    },
+    {
+        "category":  "security",
+        "name":  "security-threat-model",
+        "sizeKB":  30.2,
+        "path":  "skills/security/security-threat-model"
+    }
+]
