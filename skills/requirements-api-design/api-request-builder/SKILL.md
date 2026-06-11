@@ -22,6 +22,11 @@ Build a basic HTTP request (curl or fetch) for an API.
 - Runnable request example.
 - Notes on required headers and auth.
 
+## Collaboration
+- Upstream: use after `api-contract-designer` or when an endpoint contract already exists.
+- Downstream: hand off to `autonomous-development-governor` when request examples need runtime smoke validation or completion evidence.
+- Handoff output: include method, URL, headers, payload, placeholders, and expected response check.
+
 ## Quality bar
 - Redact secrets and use placeholders.
 - Include a sample response check.

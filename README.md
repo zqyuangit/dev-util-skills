@@ -33,6 +33,7 @@ Copy-Item -Recurse .\dev-Util-skills\skills\frontend-ui-quality\frontend-critica
 - `frontend-critical-flow-acceptance`：前端关键用户路径真实浏览器验收，避免“测试过了但用户看到灰屏/空白页/按钮无反应”。
 - `architecture-freeze-check`：进入实现前冻结架构边界，减少后期大规模 redesign。
 - `redesign-risk-check-zh`：中文项目重构风险检查，适合需求仍在变化时使用。
+- `autonomous-development-governor`：复杂开发的自动决策、验证收口和阻断判断，避免能本地验证的事项被过早写成“未做”。
 - `multi-session-project-coordinator`：多 worker 分工、集成与验收协调。
 - `frontend-ui-polish-specialist`：现有前端页面的视觉、布局、响应式和交互精修。
 - `api-contract-designer`：从需求或材料设计接口契约。
@@ -43,7 +44,7 @@ Copy-Item -Recurse .\dev-Util-skills\skills\frontend-ui-quality\frontend-critica
 
 | 分类 | 说明 |
 | --- | --- |
-| `project-governance` | 项目治理、目标定义、架构冻结、任务拆解、多会话协调 |
+| `project-governance` | 项目治理、目标定义、架构冻结、任务拆解、自动收口决策、多会话协调 |
 | `requirements-api-design` | 需求材料转设计、领域建模、API 契约与请求样例 |
 | `frontend-ui-quality` | 前端 UI 精修、关键流程验收、Playwright、Figma、截图 |
 | `github-collaboration` | GitHub 仓库阅读、CI 修复、PR 评论处理、Linear |
@@ -62,4 +63,6 @@ Copy-Item -Recurse .\dev-Util-skills\skills\frontend-ui-quality\frontend-critica
 - 只收录可复用的开发相关 skills。
 - 不提交 `.system`、`superpowers`、运行时缓存、项目输出、测试结果或依赖目录。
 - 新增 skill 时优先保持职责窄、触发条件清晰，避免和已有 skill 重叠。
+- 跨多个 skill 的复杂任务优先遵循 `skills/project-governance/_shared/skill-collaboration-protocol.md` 的交接格式。
+- 提交前可运行 `python scripts/validate_skills.py` 检查 manifest、frontmatter 和 `agents/openai.yaml`。
 - 每个 skill 至少应包含 `SKILL.md`，可选包含 `agents/openai.yaml`、`scripts/`、`references/`、`assets/`。

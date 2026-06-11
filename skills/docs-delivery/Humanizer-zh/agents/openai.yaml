@@ -1,0 +1,4 @@
+interface:
+  display_name: "Humanizer ZH"
+  short_description: "Polish Chinese AI-like text"
+  default_prompt: "Use $humanizer-zh to make this Chinese text read more naturally and less AI-generated."

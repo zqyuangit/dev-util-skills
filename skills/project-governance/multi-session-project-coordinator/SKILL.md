@@ -11,6 +11,8 @@ Use this skill to act as the coordinator for several Codex sessions that share o
 
 This skill complements `dispatching-parallel-agents`: use that skill to create independent workers; use this one to supervise long-lived worker threads across rounds.
 
+For completion governance, verification sufficiency, "why not do it" challenges, or decisions about whether local work should continue versus block, use `autonomous-development-governor` first. Return to this skill when the decision requires worker/thread/worktree mechanics.
+
 ## When To Use
 
 Use when the user provides or implies:

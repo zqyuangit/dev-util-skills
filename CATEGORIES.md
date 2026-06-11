@@ -4,11 +4,13 @@
 
 - `architecture-freeze-check`：实现前检查角色、流程、边界和交付结构，降低后续大重构风险。
 - `redesign-risk-check-zh`：中文 redesign 风险检查。
+- `autonomous-development-governor`：自动判断开发任务应继续、本地验证、阻断还是收口完成。
 - `multi-session-project-coordinator`：多会话 worker 分工、调度、验收与集成。
 - `define-goal`：把模糊目标转成可衡量目标。
 - `ticket-breakdown`：拆解任务或 ticket。
 - `codebase-orientation`：快速理解陌生代码库入口、模块和运行方式。
 - `development-playbook-writer`：从材料生成任务化开发手册。
+- `_shared/skill-collaboration-protocol.md`：跨 skill 协作状态、交接包和推荐链路。
 
 ## requirements-api-design
 
@@ -49,7 +51,7 @@
 
 - `openai-docs`：OpenAI 产品/API 官方文档辅助。
 - `chatgpt-apps`：ChatGPT Apps SDK 应用开发。
-- `context7`：Context7 文档/技能/配置。
+- `context7-cli`：Context7 文档/技能/配置。
 - `markdown-url`：网页内容 markdown 化读取。
 - `migrate-to-codex`：迁移指令、skills、agents、MCP 配置到 Codex。
 - `role-creator`、`pluginstaller`、`cli-creator`：角色、插件和 CLI 创建。
@@ -76,4 +78,3 @@
 ## productivity-integrations
 
 - `notion-*`：Notion 知识沉淀、会议、研究和规格落地。
-

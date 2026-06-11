@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ticket Breakdown"
+  short_description: "Split tickets into steps"
+  default_prompt: "Use $ticket-breakdown to split this ticket into small implementation steps and validation checks."

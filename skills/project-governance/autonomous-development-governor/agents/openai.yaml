@@ -1,0 +1,4 @@
+interface:
+  display_name: "Autonomous Development Governor"
+  short_description: "Govern dev completion decisions"
+  default_prompt: "Use $autonomous-development-governor to govern development progress, evidence, blockers, and completion decisions before declaring work done."

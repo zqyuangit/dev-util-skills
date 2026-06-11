@@ -13,7 +13,7 @@
     },
     {
         "category":  "ai-tooling",
-        "name":  "context7",
+        "name":  "context7-cli",
         "sizeKB":  13.6,
         "path":  "skills/ai-tooling/context7"
     },
@@ -79,7 +79,7 @@
     },
     {
         "category":  "docs-delivery",
-        "name":  "Humanizer-zh",
+        "name":  "humanizer-zh",
         "sizeKB":  27.1,
         "path":  "skills/docs-delivery/Humanizer-zh"
     },
@@ -283,8 +283,14 @@
     },
     {
         "category":  "project-governance",
+        "name":  "autonomous-development-governor",
+        "sizeKB":  11.3,
+        "path":  "skills/project-governance/autonomous-development-governor"
+    },
+    {
+        "category":  "project-governance",
         "name":  "codebase-orientation",
-        "sizeKB":  1,
+        "sizeKB":  1.7,
         "path":  "skills/project-governance/codebase-orientation"
     },
     {
@@ -314,7 +320,7 @@
     {
         "category":  "project-governance",
         "name":  "ticket-breakdown",
-        "sizeKB":  0.6,
+        "sizeKB":  1.2,
         "path":  "skills/project-governance/ticket-breakdown"
     },
     {
@@ -326,7 +332,7 @@
     {
         "category":  "requirements-api-design",
         "name":  "api-request-builder",
-        "sizeKB":  0.7,
+        "sizeKB":  1.2,
         "path":  "skills/requirements-api-design/api-request-builder"
     },
     {

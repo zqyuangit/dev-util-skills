@@ -1,0 +1,4 @@
+interface:
+  display_name: "Role Creator"
+  short_description: "Create Codex custom agents"
+  default_prompt: "Use $role-creator to create or update a Codex custom agent configuration."

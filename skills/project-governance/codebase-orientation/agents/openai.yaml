@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Orientation"
+  short_description: "Map repo entry points fast"
+  default_prompt: "Use $codebase-orientation to quickly map this repository's modules, entry points, and local run/test commands."

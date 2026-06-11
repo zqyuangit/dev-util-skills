@@ -1,0 +1,4 @@
+interface:
+  display_name: "API Request Builder"
+  short_description: "Draft curl or fetch calls"
+  default_prompt: "Use $api-request-builder to create a basic curl or fetch request for this API."

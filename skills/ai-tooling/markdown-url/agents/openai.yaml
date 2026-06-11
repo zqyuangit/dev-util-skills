@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown URL"
+  short_description: "Read websites as Markdown"
+  default_prompt: "Use $markdown-url to read this website through markdown.new before summarizing or extracting details."

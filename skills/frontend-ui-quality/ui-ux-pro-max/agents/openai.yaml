@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI UX Pro Max"
+  short_description: "Advanced UI and UX guidance"
+  default_prompt: "Use $ui-ux-pro-max to plan, review, or improve this web or mobile UI/UX."

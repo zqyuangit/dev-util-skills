@@ -24,6 +24,11 @@ Guide quick orientation of an unfamiliar codebase with module mapping, entry poi
 - Local run/test commands with prerequisites.
 - Suggested first change with low risk.
 
+## Collaboration
+- Upstream: use after `define-goal`, a repo link, or a user request to understand an unfamiliar codebase.
+- Downstream: hand off to `architecture-freeze-check` for structural risk, `domain-solution-designer` for backend/domain design, or `autonomous-development-governor` when the next step is deciding whether to implement or verify.
+- Handoff output: include entry points, key modules, run/test commands, and any risky unknowns.
+
 ## Quality bar
 - Reference concrete file paths and commands.
 - Keep scope limited to the requested area.

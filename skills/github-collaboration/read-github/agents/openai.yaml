@@ -1,0 +1,4 @@
+interface:
+  display_name: "Read GitHub"
+  short_description: "Read GitHub repos via GitMCP"
+  default_prompt: "Use $read-github to read or search this GitHub repository's documentation and code context."

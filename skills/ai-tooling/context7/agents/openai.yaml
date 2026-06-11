@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context7 CLI"
+  short_description: "Fetch current library docs"
+  default_prompt: "Use $context7-cli to fetch current library documentation or manage Context7-related coding skills."
