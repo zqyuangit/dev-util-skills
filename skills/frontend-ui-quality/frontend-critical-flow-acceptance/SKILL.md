@@ -41,6 +41,7 @@ For each critical path, check the states that users actually experience:
 - Recoverable: close, cancel, back, retry, or correction actions work.
 - Responsive: one desktop viewport and one constrained viewport do not hide primary actions.
 - Safe copy: no raw errors, API URLs, stack traces, framework names, ports, or developer-only wording leak to users.
+- User-facing copy: labels, status text, empty states, and success/error messages explain user tasks, results, and next steps without exposing AI generation or implementation details.
 - State preserved: drafts, answers, selected tabs, or submitted results remain when the flow promises they will.
 
 Portal and overlay flows require an extra layer check:

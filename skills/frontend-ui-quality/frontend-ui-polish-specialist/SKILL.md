@@ -56,6 +56,24 @@ Do not introduce a new UI library or icon set unless the user explicitly asks or
 5. Preserve product scope, information architecture, copy intent, data contracts, and backend behavior unless the user explicitly asks for more.
 6. Verify the result on at least one desktop and one mobile viewport. Use Playwright screenshots when a dev server or static preview is available.
 
+## User-Facing Copy Principles
+
+When changing any text visible in the software UI, write for real users instead of developers, judges, demo presenters, or AI-tool operators.
+
+- Explain the user's task, state, result, or next step; do not explain internal implementation.
+- Do not expose model behavior, API calls, generation pipelines, debug details, ports, stack traces, framework names, or system prompts in the main UI.
+- Avoid temporary, placeholder, perfunctory, or obviously AI-generated phrasing.
+- Button copy should name a clear action. Status copy should state a clear result. Empty-state copy should tell the user what they can do next.
+- Keep tone accurate, natural, and restrained, like part of a mature product rather than a development log, defense note, or system instruction.
+- Remove any sentence that does not help the user understand the page, complete a task, or decide the next step.
+
+Before finalizing UI copy, check:
+
+- Does the user really need to see this sentence?
+- Does it reveal implementation details or AI-tool traces?
+- Can a first-time user understand it immediately?
+- Does it clearly state the current state, available action, or actual result?
+
 ## UI Priorities
 
 - Stable layout: no text overlap, clipped controls, unwanted horizontal scroll, sticky element collisions, or layout shifts from dynamic content.
