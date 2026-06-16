@@ -74,6 +74,35 @@ For compound controls such as input plus button, label plus control, filter plus
 - Preserve semantic labels and focus order when controls reflow.
 - Re-check hover, focus, disabled, loading, error, and success states after the layout fix.
 
+## Async Selection Ghosting Guard
+
+Treat flicker, ghosting, and double-selected content during list/detail switching as visual stability bugs, especially when a user clicks between resources, lessons, tabs, records, files, or master/detail rows.
+
+Check for:
+
+- Old and new selected items appearing active at the same time during the click frame.
+- The detail pane showing stale title/body/actions while the new item is loading.
+- Parent data refreshes or learning/activity reporting that remount the whole list on every item open.
+- CSS transitions on selected list items that keep the old active background, border, shadow, or transform visible after state has changed.
+- Disabled states during opening that briefly trap focus, fade the list, or prevent fast correction clicks.
+- Out-of-order async responses replacing the currently selected detail with stale data.
+
+Prefer a stable switching model:
+
+- Track a pending/opening item id separately from the last loaded detail id so the clicked item becomes active immediately.
+- Clear or replace stale detail content with a small loading placeholder while the new detail is loading; do not leave the previous item's body visible behind the spinner.
+- Guard async detail requests with the requested id or a request token before committing state.
+- Keep parent refresh/reporting side effects out of the visual selection path unless the refreshed data is required for the opened item.
+- Remove or sharply limit transitions on active list item backgrounds, borders, shadows, opacity, and transforms when they make stale selection visible.
+- Keep list buttons clickable during opening unless the backend action truly cannot be repeated; use loading affordances in the detail pane instead.
+
+Verify the fix in a real browser:
+
+- Slow or delay the detail request, click from item 01 to 02 and 03, then inspect the first 0-100 ms after the click.
+- Confirm only the clicked list item has active styling immediately after the click.
+- Confirm the detail pane contains only the loading state or the new detail, never the old title/body plus new loading state.
+- Add a regression test around rapid switching or delayed responses when the project has component or Playwright tests.
+
 ## User-Facing Copy Principles
 
 When changing any text visible in the software UI, write for real users instead of developers, judges, demo presenters, or AI-tool operators.
