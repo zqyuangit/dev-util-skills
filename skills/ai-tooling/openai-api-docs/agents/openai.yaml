@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenAI API Docs Legacy"
+  short_description: "Legacy local OpenAI API docs workflow."
+  default_prompt: "Use $openai-api-docs only when the canonical $openai-docs skill is unavailable."

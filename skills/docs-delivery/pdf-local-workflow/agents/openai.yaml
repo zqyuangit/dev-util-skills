@@ -1,0 +1,4 @@
+interface:
+  display_name: "PDF Local Workflow"
+  short_description: "Legacy local PDF workflow conventions."
+  default_prompt: "Use $pdf-local-workflow only when legacy local PDF conventions are required."

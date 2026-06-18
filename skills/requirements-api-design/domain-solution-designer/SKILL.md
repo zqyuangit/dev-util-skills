@@ -36,6 +36,8 @@ For each one, capture:
 
 Prefer business concepts over framework objects.
 
+For catalogs, enums, course lists, professions, feature flags, or configurable white lists, identify the single authoritative source. Then list every consumer that must read from it or stay in sync: validators, forms, tests, seed data, documentation, and imports. Do not allow a newly expanded catalog to coexist with an old hardcoded whitelist unless the migration boundary is explicit.
+
 ### 3. Define state and transitions
 
 Make the lifecycle explicit whenever the feature has timing, approval, retries, fulfillment, quota, or expiration behavior.
@@ -84,6 +86,7 @@ Always call out:
 - retry behavior
 - timeout boundaries
 - observability needs
+- async queue states: enqueue success, execution success, execution failure, worker absent, and frontend polling stop conditions
 
 Do not leave these as implicit implementation details when they materially affect correctness.
 
@@ -116,4 +119,6 @@ The minimum output should cover:
 - Is storage structure tied back to business rules?
 - Are async and sync responsibilities separated?
 - Are consistency and concurrency risks called out?
+- Is there a single authoritative source for catalogs, enums, white lists, and configurable options?
+- Are worker absent and async failure paths visible, not only the ideal queue path?
 - Are the main tradeoffs and open questions visible?

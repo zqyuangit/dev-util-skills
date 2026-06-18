@@ -2,6 +2,7 @@
 
 ## project-governance
 
+- `software-delivery-orchestrator`：软件交付总编排，负责跨 discovery、设计、实现、调试、测试、验收和交付的 skill 路由、冲突裁决与验证门。
 - `architecture-freeze-check`：实现前检查角色、流程、边界和交付结构，降低后续大重构风险。
 - `redesign-risk-check-zh`：中文 redesign 风险检查。
 - `autonomous-development-governor`：自动判断开发任务应继续、本地验证、阻断还是收口完成。
@@ -52,6 +53,7 @@
 ## ai-tooling
 
 - `openai-docs`：OpenAI 产品/API 官方文档辅助。
+- `openai-api-docs`：legacy 本地 OpenAI API 文档工作流，仅在显式调用或 canonical `openai-docs` 不可用时使用。
 - `chatgpt-apps`：ChatGPT Apps SDK 应用开发。
 - `context7-cli`：Context7 文档/技能/配置。
 - `markdown-url`：网页内容 markdown 化读取。
@@ -69,6 +71,7 @@
 - `software-demo-ppt-real-prototype`：基于真实程序截图制作演示 PPT。
 - `software-copyright-report`：软件著作权说明书/操作说明。
 - `pdf`：PDF 读取、创建、审阅。
+- `pdf-local-workflow`：legacy 本地 PDF 工作流，仅在显式调用或 canonical `pdf` 不可用时使用。
 - `Humanizer-zh`：中文文本去 AI 味。
 
 ## media-specialized-tools

@@ -42,6 +42,7 @@ For every endpoint, define:
 - method and path
 - purpose
 - auth or caller constraints
+- security configuration impact, including whether route allowlists or guards must change
 - request parameters
 - request body shape
 - response shape
@@ -49,6 +50,8 @@ For every endpoint, define:
 - edge-case behavior
 
 Mark fields as required, optional, derived, or server-controlled.
+
+Security allowlist check: for public recovery or session endpoints, explicitly state whether the security layer permits anonymous access, authenticated access, role-based access, CSRF behavior, and rate-limit expectations. Do not assume adding the controller route makes the endpoint usable.
 
 ### 4. Standardize the shared contract layer
 
@@ -106,6 +109,7 @@ The minimum output should cover:
 - Is module ownership clear?
 - Are request and response shapes explicit?
 - Are required versus optional fields marked?
-- Are auth and validation rules visible?
+- Are auth, route allowlists, and validation rules visible?
 - Are pagination, filtering, and sorting conventions covered where relevant?
 - Are error semantics and edge cases spelled out?
+- Does the contract identify every link needed for use: frontend/API helper, controller, security, service, repository, and tests?

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Software Delivery Orchestrator"
+  short_description: "Routes delivery tasks to the right local skills."
+  default_prompt: "Use $software-delivery-orchestrator to choose the right skills for a software delivery task."
